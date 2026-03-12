@@ -1,0 +1,240 @@
+a=[1,2,3,4,5]
+print(a[3:0:-1])#
+
+num=1234567
+a= num % 10
+num= num // 10
+b= num % 10
+num= num // 10
+c= num % 10
+num= num // 10
+d= num % 10
+num= num // 10
+e= num % 10
+num= num // 10
+f= num % 10
+num= num // 10
+g= num % 10
+num= num // 10
+rev=a*1000000+b*100000+c*10000+d*1000+e*100+f*10+g*1
+print(rev)
+
+h = float(input("Enter height in feet: "))
+
+inch = h * 12
+cm = inch * 2.54
+
+print("Height in inches:", inch)
+print("Height in cm:", cm)
+
+arr={}
+arr[(1,2,3)]=8
+arr[(4,2,1)]=10
+arr[(1,2)] =12
+print(arr)
+sum=0
+for k in arr:
+    sum +=arr[k]
+print(sum)
+
+day = input("Enter the day: ").lower()
+
+if day in ["monday", "tuesday", "wednesday", "thursday", "friday"]:
+    print("no is positive")
+
+elif day in ["saturday", "sunday"]:
+    print("no is neg")
+
+else:
+    print("Invalid day")
+
+a= int(input("Enter the MArks math: "))
+b= int(input("Enter the MArks chem: "))
+c= int(input("Enter the MArks pky : "))
+d=a+b+c
+per=(d/300)*100
+if(per>=60):
+    print("pass")
+else:
+    print("fail")
+print(d, per)
+
+a= int(input("Enter the no1:"))
+b= int(input("Enter the no2: "))
+c= int(input("Enter the Mno3: : "))
+d= int(input("Enter the no4:"))
+e= int(input("Enter the no5:"))
+if (a> b and a>c and a>d and a>e):
+    print(a," ig gratest")
+if (e> b and  e>c and e>d and e>a):
+    print("e ig gratest")
+if (b> a and b>c and b>d and b>e):
+    print("b ig gratest")
+if (c> b and c>a and c>d and c>e):
+    print("c ig gratest")
+if (d> b and d>c and d>a and d>e):
+    print("d ig gratest")
+
+a = int(input("Enter no1: "))
+b = int(input("Enter no2: "))
+c = int(input("Enter no3: "))
+d = int(input("Enter no4: "))
+e = int(input("Enter no5: "))
+
+if a > b:
+    if a > c:
+        if a > d:
+            if a > e:
+                print(a, "is greatest")
+            else:
+                print(e, "is greatest")
+        else:
+            if d > e:
+                print(d, "is greatest")
+            else:
+                print(e, "is greatest")
+    else:
+        if c > d:
+            if c > e:
+                print(c, "is greatest")
+            else:
+                print(e, "is greatest")
+        else:
+            if d > e:
+                print(d, "is greatest")
+            else:
+                print(e, "is greatest")
+else:
+    if b > c:
+        if b > d:
+            if b > e:
+                print(b, "is greatest")
+            else:
+                print(e, "is greatest")
+        else:
+            if d > e:
+                print(d, "is greatest")
+            else:
+                print(e, "is greatest")
+    else:
+        if c > d:
+            if c > e:
+                print(c, "is greatest")
+            else:
+                print(e, "is greatest")
+        else:
+            if d > e:
+                print(d, "is greatest")
+            else:
+                print(e, "is greatest")
+
+a = int(input("Enter no1: "))
+b = int(input("Enter no2: "))
+c = int(input("Enter no3: "))
+d = int(input("Enter no4: "))
+e = int(input("Enter no5: "))
+
+if a > b:
+    if a > c:
+        if a > d:
+            if a > e:
+                print(a, "is greatest")
+            else:
+                print(e, "is greatest")
+        else:
+            if d > e:
+                print(d, "is greatest")
+            else:
+                print(e, "is greatest")
+    else:
+        if c > d:
+            if c > e:
+                print(c, "is greatest")
+            else:
+                print(e, "is greatest")
+        else:
+            if d > e:
+                print(d, "is greatest")
+            else:
+                print(e, "is greatest")
+else:
+    if b > c:
+        if b > d:
+            if b > e:
+                print(b, "is greatest")
+            else:
+                print(e, "is greatest")
+        else:
+            if d > e:
+                print(d, "is greatest")
+            else:
+                print(e, "is greatest")
+    else:
+        if c > d:
+            if c > e:
+                print(c, "is greatest")
+            else:
+                print(e, "is greatest")
+        else:
+            if d > e:
+                print(d, "is greatest")
+            else:
+                print(e, "is greatest")
+
+a = int(input("Enter per: "))
+if(a>= 90):
+    print ("Grade a")
+elif (a>= 80):
+    print ("Grade b")
+elif (a>= 70):
+    print ("Grade c")
+elif (a>= 60):
+    print ("Grade d")
+else:
+    print ("Fail")
+
+
+a = int(input("bank bal "))
+b = int(input("withdrawal amount "))
+if(a>=b):
+  print("succ")
+else:
+    print ("Fail")
+  
+
+
+s=("help4code is a best platform for practicing programming")
+print(s.find("help4code"))
+print(s.find("python"))
+print(s.find("programming"))
+
+print("Subjects Marks:")
+
+phy = 80
+chem = 60
+math = 70
+
+print("physics = {} chemistry = {} Math = {}".format(phy, chem, math))
+
+print("physics = {0} chemistry = {2} Math = {1}".format(phy, chem, math))
+
+print(f"physics = {phy} chemistry = {chem} Math = {math}")
+
+total = phy + chem + math
+
+print("Total Marks:", total)
+
+print("Roll No =", "7".zfill(4))
+
+print('prashantjha777'.isalnum()) #True
+print('prashantjha'.isalpha()) #True
+print('777f'.isdigit())
+print('sdsdsdsd'.islower())
+print(''.islower())
+print('PRASHANTj'.isupper())
+print('My Name Is Prashant'.istitle())
+print(''.istitle())
+print(''.isspace())
+print("Hello".startswith("He"))
+print("Hello".endswith("lo"))
+  
